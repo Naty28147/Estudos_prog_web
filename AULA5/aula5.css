@@ -1,0 +1,85 @@
+/* Grid */
+.grid {
+    display: grid;
+  }
+  
+  .grid-template-1 {
+    grid-template: 50px 1fr / 100px 1fr 100px;
+  }
+  
+  .grid-template-2 {
+    grid-template:
+      "logo nav nav" 50px
+      "sidenav content advert" 150px
+      "sidenav footer footer" 100px
+      / 100px 1fr 50px;
+  }
+  
+  .logo {
+    grid-area: logo;
+  }
+  
+  .nav {
+    grid-area: nav;
+  }
+  
+  .content {
+    grid-area: content;
+  }
+  
+  .sidenav {
+    grid-area: sidenav;
+  }
+  
+  .advert {
+    grid-area: advert;
+  }
+  
+  .footer {
+    grid-area: footer;
+  }
+  
+  /* Grid Item */
+  .item {
+    margin: 5px;
+    background: tomato;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .grid {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: normal;
+  }
+  
+  body {
+    font-family: monospace;
+    color: #333;
+    padding-bottom: 60px;
+    margin: 0px;
+  }
+  
+  body>div {
+    padding: 40px 0;
+  }
+  
+  /*Adiciona fundo cinza nas divs*/
+  body>div:nth-of-type(2) {
+    background: rgba(61, 58, 58, 0.03);
+  }
+  
+  
+  /*Aplica essa config no body, div e na img*/
+  body>div>img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
