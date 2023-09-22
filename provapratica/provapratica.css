@@ -1,0 +1,78 @@
+.grid {
+    display: grid;
+}
+
+.grid-template{
+    grid-template: 
+    "nav nav" 
+    "sidebar content" 
+    "footer footer";
+  }
+
+.stretch {
+    justify-content: stretch;
+}
+
+
+.nav {
+    grid-area: nav;
+    color: white;
+    background-color:  rgb(138,180,248);
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.content {
+    grid-area: content;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+/* Imagens*/
+
+
+
+.carros {
+    width: 8rem;
+    height: 6rem;
+    padding: 1%;
+}
+
+.menu {
+    max-width:100%;
+    height: 90%;
+  justify-content:space-between;
+}
+
+.menu>div {
+    display: inline-grid;
+    font-size: 1.2rem;
+    justify-content: stretch;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+.gallery {
+    display: inline-grid;
+}
+
+.gallery>label {
+    font-size: 1rem;
+}
+
+.item {
+    height: auto;
+    border: 1px solid purple;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+.gap {
+    gap: 10px;
+}
