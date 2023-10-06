@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row g-3">Cadastro de Usuário</div>
+    <form>
+        <div class="form-group">
+            <label for="Nome">Nome</label>
+        </div>
+        <div>
+            <input type="text" class="form-control" id="Nome">
+        </div>
+
+        <div class="form-group">
+            <label for="E-mail">E-mail</label>
+        </div>
+        <div>
+            <input type="email" class="form-control" id="E-mail">
+        </div>
+
+        <div class="form-group">
+            <label for="Password">Password</label>
+        </div>
+        <div>
+            <input type="text" class="form-control" id="Password">
+        </div>
+
+        <div class="form-group">
+            <label for="Rua">Rua</label>
+        </div>
+        <div>
+            <input type="text" class="form-control" id="Rua" placeholder="1234 Main St">
+        </div>
+
+        <div class="form-group">
+            <label for="Bairro">Bairro</label>
+        </div>
+        <div>
+            <input type="text" class="form-control" id="Bairro" placeholder="Apartment, studio, or floor">
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="City">City</label>
+              <input type="text" class="form-control" id="City">
+            </div>
+
+            <div class="form-group col-md-4">
+              <label for="State">State</label>
+              <select id="State" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+
+            <div class="form-group col-md-2">
+              <label for="Zip">CEP</label>
+              <input type="text" class="form-control" id="Zip">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="form-check">
+              <input class="Check me out" type="checkbox" id="Check me out">
+              <label class="Check me out" for="gridCheck">Check me out</label>
+            </div>
+        </div>
+
+            <div class="form-group row">
+                <div class="col-sm-6">
+                  <button type="submit" class="submit">Submit</button>
+                </div>
+            </div>
+
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                      <button type="clear" class="clear">Clear</button>
+                    </div>
+                </div>
+          </div>
+    </form>
+    </div>
+</body>
+</html>
