@@ -2,7 +2,7 @@
     display: grid;
 }
 
-.grid-template{
+.container{
     grid-template: 
     "nav nav" 
     "sidebar content" 
